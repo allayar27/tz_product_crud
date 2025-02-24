@@ -29,7 +29,8 @@ php artisan key:generate
 php artisan clear
 php artisan optimize:clear
 php artisan migrate
-
+php artisan jwt:secret
+php artisan storage:link 
 
 echo "Fixing file permissions..."
 
